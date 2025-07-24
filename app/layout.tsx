@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://budgetsaviour.com",
   },
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -33,23 +33,23 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google Analytics */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-3B9Z6N6LPH" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID');
+            gtag('config', 'G-3B9Z6N6LPH');
           `}
         </Script>
 
         {/* Google Search Console */}
-        <meta name="google-site-verification" content="YOUR_SEARCH_CONSOLE_CODE" />
+        <meta name="google-site-verification" content="h6KedsBZTrsDyekGvQZJ5tNnWk71BLMEZ0DTjg_CFlo" />
 
         {/* Google AdSense */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9473668083980259"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
