@@ -1,0 +1,31 @@
+{
+  "title": "MSA (Minimum Sum Assured) Table",
+  "description": "Minimum Sum Assured requirements for different age groups",
+  "data": [
+    {
+      "ageGroup": "18-30",
+      "minimumSumAssured": 50000,
+      "maximumSumAssured": 2000000
+    },
+    {
+      "ageGroup": "31-40",
+      "minimumSumAssured": 75000,
+      "maximumSumAssured": 1500000
+    },
+    {
+      "ageGroup": "41-50",
+      "minimumSumAssured": 100000,
+      "maximumSumAssured": 1000000
+    },
+    {
+      "ageGroup": "51-60",
+      "minimumSumAssured": 150000,
+      "maximumSumAssured": 750000
+    },
+    {
+      "ageGroup": "61-65",
+      "minimumSumAssured": 200000,
+      "maximumSumAssured": 500000
+    }
+  ]
+}

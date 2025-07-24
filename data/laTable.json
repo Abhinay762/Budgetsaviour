@@ -1,0 +1,31 @@
+{
+  "title": "LA (Loyalty Addition) Table",
+  "description": "Loyalty Addition rates for different policy terms",
+  "data": [
+    {
+      "policyTerm": 10,
+      "loyaltyAdditionRate": 0.015,
+      "description": "1.5% of (Sum Assured + Accrued Bonus)"
+    },
+    {
+      "policyTerm": 15,
+      "loyaltyAdditionRate": 0.02,
+      "description": "2.0% of (Sum Assured + Accrued Bonus)"
+    },
+    {
+      "policyTerm": 20,
+      "loyaltyAdditionRate": 0.025,
+      "description": "2.5% of (Sum Assured + Accrued Bonus)"
+    },
+    {
+      "policyTerm": 25,
+      "loyaltyAdditionRate": 0.03,
+      "description": "3.0% of (Sum Assured + Accrued Bonus)"
+    },
+    {
+      "policyTerm": 30,
+      "loyaltyAdditionRate": 0.035,
+      "description": "3.5% of (Sum Assured + Accrued Bonus)"
+    }
+  ]
+}
