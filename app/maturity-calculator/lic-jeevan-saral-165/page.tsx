@@ -24,8 +24,7 @@ export default function JeevanSaralCalculatorPage() {
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">LIC Jeevan Saral Plan 165 Maturity Calculator</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Calculate your LIC Jeevan Saral Plan 165 maturity value instantly. Get accurate estimates of your policy
-              returns with detailed breakdown.
+              Instantly calculate the maturity value of your LIC Jeevan Saral Plan 165 policy. Get detailed estimates, including bonuses and loyalty additions.
             </p>
           </div>
 
@@ -37,41 +36,37 @@ export default function JeevanSaralCalculatorPage() {
 
           {/* Information Section */}
           <div className="calculator-card mt-8">
-            <h2 className="text-2xl font-bold mb-6">About LIC Jeevan Saral Plan 165 Calculator</h2>
+            <h2 className="text-2xl font-bold mb-6">LIC Jeevan Saral Plan 165 Overview</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4">What is LIC Jeevan Saral Plan 165?</h3>
+                <h3 className="text-xl font-semibold mb-4">Plan Features</h3>
                 <p className="text-gray-700 mb-4">
-                  LIC Jeevan Saral Plan 165 is a participating endowment plan that combines protection and savings. It
-                  provides guaranteed returns along with bonus additions and loyalty additions for long-term
-                  policyholders.
+                  LIC Jeevan Saral Plan 165 is a flexible endowment plan that offers both protection and long-term savings. It comes with loyalty additions, guaranteed maturity benefits, and annual bonuses.
                 </p>
 
-                <h4 className="text-lg font-semibold mb-2">Key Benefits:</h4>
+                <h4 className="text-lg font-semibold mb-2">Major Benefits:</h4>
                 <ul className="list-disc pl-5 text-gray-700 space-y-1">
-                  <li>Guaranteed maturity benefit</li>
-                  <li>Death benefit protection</li>
-                  <li>Annual bonus additions</li>
-                  <li>Loyalty addition</li>
-                  <li>Tax benefits</li>
+                  <li>Guaranteed maturity value</li>
+                  <li>Death risk coverage</li>
+                  <li>Bonus and loyalty additions</li>
+                  <li>Tax exemptions under section 80C & 10(10D)</li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4">How Our Calculator Works</h3>
+                <h3 className="text-xl font-semibold mb-4">How the Calculator Works</h3>
                 <p className="text-gray-700 mb-4">
-                  Our LIC Jeevan Saral maturity calculator uses the latest bonus rates and policy terms to provide
-                  accurate maturity value estimates.
+                  The calculator estimates your maturity amount based on your inputs, using prevailing LIC bonus rates and loyalty additions.
                 </p>
 
-                <h4 className="text-lg font-semibold mb-2">Calculation Includes:</h4>
+                <h4 className="text-lg font-semibold mb-2">It Considers:</h4>
                 <ul className="list-disc pl-5 text-gray-700 space-y-1">
-                  <li>Sum Assured</li>
-                  <li>Bonus additions</li>
-                  <li>Loyalty addition</li>
+                  <li>Entered Sum Assured</li>
+                  <li>Applicable bonus rates</li>
+                  <li>Loyalty addition (based on term)</li>
                   <li>Total premium paid</li>
-                  <li>Net returns</li>
+                  <li>Estimated returns</li>
                 </ul>
               </div>
             </div>
@@ -80,35 +75,72 @@ export default function JeevanSaralCalculatorPage() {
           {/* FAQ Section */}
           <div className="calculator-card mt-8">
             <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
-
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold mb-2">
-                  What is the minimum sum assured for LIC Jeevan Saral Plan 165?
-                </h3>
+                <h3 className="text-lg font-semibold mb-2">What are the benefits of Jeevan Saral Plan 165?</h3>
                 <p className="text-gray-700">
-                  The minimum sum assured for LIC Jeevan Saral Plan 165 is ₹50,000. There is no maximum limit on the sum
-                  assured.
+                  Jeevan Saral offers flexibility, life cover, guaranteed returns, and loyalty additions. You get death benefits during the term, maturity sum assured at the end, and potential annual bonuses and tax exemptions under Section 80C and 10(10D).
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">How accurate is this maturity calculator?</h3>
+                <h3 className="text-lg font-semibold mb-2">What are the disadvantages of Jeevan Saral?</h3>
                 <p className="text-gray-700">
-                  Our calculator provides estimates based on current bonus rates and policy terms. Actual maturity
-                  values may vary based on LIC's declared bonus rates.
+                  The plan was discontinued for new purchases due to regulatory changes. It also lacks transparency in bonus and loyalty addition declarations and may offer lower returns compared to modern investment-linked products.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">What is loyalty addition in LIC Jeevan Saral?</h3>
+                <h3 className="text-lg font-semibold mb-2">What are the benefits of Jeevan Saral with profits?</h3>
                 <p className="text-gray-700">
-                  Loyalty addition is an additional benefit provided to policyholders who continue their policy till
-                  maturity. It's calculated as a percentage of the sum assured plus accrued bonus.
+                  With-profits means you earn a share in LIC’s surplus. Jeevan Saral policyholders receive annual bonuses and possible loyalty additions, increasing the maturity and death benefit amounts over time.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">Can we take a loan on a Jeevan-Saral policy?</h3>
+                <p className="text-gray-700">
+                  Yes, you can take a policy loan after completing at least 3 years of premium payment. The loan amount is usually 85–90% of the surrender value, and interest is payable as per LIC’s prevailing rates.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">How to calculate Jeevan Saral maturity amount?</h3>
+                <p className="text-gray-700">
+                  Use our free online Jeevan Saral 165 maturity calculator to estimate your maturity value. It considers premium paid, age at entry, policy term, sum assured, bonus, and loyalty additions.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">Is it good to take a loan against a LIC policy?</h3>
+                <p className="text-gray-700">
+                  Loans against LIC policies are safe and easy with lower interest rates. It’s a good option if you need short-term funds without affecting your credit score. However, unpaid loans reduce the maturity or death benefit.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">Is LIC Jeevan Saral still available?</h3>
+                <p className="text-gray-700">
+                  LIC has discontinued Jeevan Saral for new customers. However, if you already have a policy, it remains active with all benefits including bonuses and maturity payouts.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">Is the calculator 100% accurate?</h3>
+                <p className="text-gray-700">
+                  Our calculator gives you a near-accurate estimate based on current LIC rates and assumptions. However, final maturity values depend on LIC's declared bonuses and loyalty additions at the time of payout.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">What’s the loyalty addition amount?</h3>
+                <p className="text-gray-700">
+                  Loyalty additions are declared by LIC based on the policy term and performance of the fund. They are typically added for policies held for over 10 years and can significantly enhance your returns.
                 </p>
               </div>
             </div>
           </div>
+
         </div>
       </main>
       <Footer />

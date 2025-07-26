@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   keywords:
     "jeevan saral maturity calculator, lic jeevan saral maturity calculator, lic jeevan saral plan 165 maturity calculator excel, lic calculator",
   authors: [{ name: "Budget Saviour" }],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
     title: "LIC Jeevan Saral Plan 165 Maturity Calculator",

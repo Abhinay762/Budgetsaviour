@@ -1,11 +1,63 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "Contact Us - LIC Plan Calculator | Budget Saviour",
+export const metadata: Metadata = {
+  title: "Contact Budget Saviour - Get Help with LIC Calculators & Policy Planning",
   description:
-    "Get in touch with Budget Saviour for support, feedback, or questions about our LIC calculators and financial planning tools.",
+    "Need help with LIC calculations or policy planning? Contact Budget Saviour's expert team. Get quick support for maturity calculators, surrender values & more.",
+  keywords: [
+    "contact Budget Saviour",
+    "LIC calculator support",
+    "LIC policy help",
+    "customer support",
+    "LIC calculation assistance",
+    "insurance planning help",
+    "Budget Saviour contact",
+    "LIC expert consultation",
+    "financial planning support",
+    "LIC calculator queries",
+  ],
+  openGraph: {
+    title: "Contact Budget Saviour - Expert LIC Calculator Support",
+    description:
+      "Get in touch with Budget Saviour for personalized LIC policy guidance and calculator support. Our experts are here to help with your insurance planning needs.",
+    url: "https://budgetsaviour.com/contact",
+    siteName: "Budget Saviour",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "https://budgetsaviour.com/images/contact-support-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Budget Saviour Support Team",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Budget Saviour - LIC Calculator Support",
+    description:
+      "Need help with LIC calculations? Contact our expert team for personalized guidance on policy planning and maturity calculations.",
+    site: "@budgetsaviour",
+    images: ["https://budgetsaviour.com/images/contact-support-og.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://budgetsaviour.com/contact",
+  },
 }
 
 export default function ContactPage() {

@@ -1,11 +1,55 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "Disclaimer - LIC Plan Calculator | Budget Saviour",
+export const metadata: Metadata = {
+  title: "Disclaimer - Budget Saviour LIC Calculator Terms & Limitations",
   description:
-    "Important disclaimer about the use of our LIC calculators and the accuracy of calculations provided by Budget Saviour.",
+    "Read Budget Saviour's disclaimer regarding LIC calculator accuracy, policy estimates, and financial planning tools. Important terms for using our calculators.",
+  keywords: [
+    "Budget Saviour disclaimer",
+    "LIC calculator disclaimer",
+    "policy calculator terms",
+    "financial planning disclaimer",
+    "LIC estimate limitations",
+    "calculator accuracy terms",
+    "insurance tool disclaimer",
+    "Budget Saviour terms",
+    "LIC calculation limits",
+    "policy planning disclaimer",
+  ],
+  openGraph: {
+    title: "Disclaimer - Budget Saviour LIC Calculator Terms",
+    description:
+      "Important disclaimer and terms regarding the use of Budget Saviour's LIC calculators and financial planning tools. Read before using our services.",
+    url: "https://budgetsaviour.com/disclaimer",
+    siteName: "Budget Saviour",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Budget Saviour Disclaimer - Calculator Terms",
+    description:
+      "Read our disclaimer regarding LIC calculator accuracy and limitations before using Budget Saviour's financial planning tools.",
+    site: "@budgetsaviour",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "standard",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://budgetsaviour.com/disclaimer",
+  },
 }
+
 
 export default function DisclaimerPage() {
   return (

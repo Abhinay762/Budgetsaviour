@@ -1,12 +1,57 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { Users, Target, Award, Shield } from "lucide-react"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "About Us - LIC Plan Calculator | Budget Saviour",
+export const metadata: Metadata = {
+  title: "About Budget Saviour - LIC Policy & Maturity Calculator Experts",
   description:
-    "Learn about Budget Saviour and our mission to provide accurate LIC policy calculators to help you make informed financial decisions.",
+    "Learn about Budget Saviour's mission to simplify LIC policy planning. Trusted by thousands, we provide accurate maturity & surrender value calculators online.",
+  keywords: [
+    "Budget Saviour",
+    "About Budget Saviour",
+    "LIC calculator",
+    "LIC maturity calculator",
+    "LIC surrender value",
+    "LIC plan calculator",
+    "free insurance tools",
+    "financial planning",
+    "LIC premium estimate",
+    "best LIC calculator India",
+  ],
+  openGraph: {
+    title: "About Budget Saviour - Trusted LIC Plan Calculator Platform",
+    description:
+      "Discover how Budget Saviour helps you plan better with accurate LIC tools and expert-backed guidance. Your financial partner in LIC policy management.",
+    url: "https://budgetsaviour.com/about",
+    siteName: "Budget Saviour",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Budget Saviour - LIC Planning Simplified",
+    description:
+      "Learn who we are and why Budget Saviour is India's most reliable LIC calculator site. Empower your policy decisions with confidence.",
+    site: "@budgetsaviour",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://budgetsaviour.com/about",
+  },
+  metadataBase: new URL("https://budgetsaviour.com"),
 }
+
 
 export default function AboutPage() {
   return (

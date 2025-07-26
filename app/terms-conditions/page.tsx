@@ -1,10 +1,55 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "Terms & Conditions - LIC Plan Calculator | Budget Saviour",
-  description: "Read our terms and conditions for using Budget Saviour LIC calculators and website services.",
+export const metadata: Metadata = {
+  title: "Terms & Conditions - Budget Saviour LIC Calculator Usage Policy",
+  description:
+    "Read Budget Saviour's Terms & Conditions for using LIC calculators, maturity estimators, and financial planning tools. User agreement and service terms.",
+  keywords: [
+    "Budget Saviour terms conditions",
+    "LIC calculator terms",
+    "user agreement",
+    "service terms",
+    "calculator usage policy",
+    "Budget Saviour policy",
+    "LIC tool terms",
+    "financial planning terms",
+    "website terms conditions",
+    "calculator service agreement",
+  ],
+  openGraph: {
+    title: "Terms & Conditions - Budget Saviour Service Agreement",
+    description:
+      "Complete terms and conditions for using Budget Saviour's LIC calculators and financial planning services. User rights and responsibilities.",
+    url: "https://budgetsaviour.com/terms-conditions",
+    siteName: "Budget Saviour",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Budget Saviour Terms & Conditions",
+    description:
+      "Review our terms and conditions for using LIC calculators and financial planning tools on Budget Saviour platform.",
+    site: "@budgetsaviour",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "standard",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://budgetsaviour.com/terms-conditions",
+  },
 }
+
 
 export default function TermsConditionsPage() {
   return (

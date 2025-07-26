@@ -1,10 +1,53 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "Privacy Policy - LIC Plan Calculator | Budget Saviour",
+export const metadata: Metadata = {
+  title: "Privacy Policy - Budget Saviour Data Protection & User Privacy",
   description:
-    "Read our privacy policy to understand how Budget Saviour collects, uses, and protects your personal information.",
+    "Budget Saviour's Privacy Policy explains how we collect, use, and protect your data when using LIC calculators and financial planning tools. Your privacy matters.",
+  keywords: [
+    "Budget Saviour privacy policy",
+    "data protection",
+    "user privacy",
+    "LIC calculator privacy",
+    "personal data policy",
+    "cookie policy",
+    "data security",
+    "privacy protection",
+    "user information policy",
+    "Budget Saviour data policy",
+  ],
+  openGraph: {
+    title: "Privacy Policy - Budget Saviour Data Protection",
+    description:
+      "Learn how Budget Saviour protects your privacy and handles personal data when you use our LIC calculators and financial planning services.",
+    url: "https://budgetsaviour.com/privacy-policy",
+    siteName: "Budget Saviour",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Budget Saviour Privacy Policy",
+    description:
+      "Our commitment to protecting your privacy while using LIC calculators and financial planning tools on Budget Saviour.",
+    site: "@budgetsaviour",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "standard",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://budgetsaviour.com/privacy-policy",
+  },
 }
 
 export default function PrivacyPolicyPage() {
