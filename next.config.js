@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["budgetsaviour.com"],
+    domains: ["Saralcalc.online"],
     formats: ["image/webp", "image/avif"],
     unoptimized: true,
   },

@@ -9,10 +9,10 @@ interface SeoHeadProps {
 }
 
 export default function SeoHead({
-  title = "LIC Jeevan Saral Plan 165 Maturity Calculator | Budget Saviour",
+  title = "LIC Jeevan Saral Plan 165 Maturity Calculator | Saral Calc",
   description = "Calculate LIC Jeevan Saral Plan 165 maturity value with our free online calculator. Get accurate maturity amount, bonus, and returns for your LIC policy.",
   keywords = "jeevan saral maturity calculator, lic jeevan saral maturity calculator, lic jeevan saral plan 165 maturity calculator excel, lic calculator",
-  canonicalUrl = "https://budgetsaviour.com",
+  canonicalUrl = "https://Saralcalc.online",
   ogImage = "/og-image.jpg",
 }: SeoHeadProps) {
   return (
@@ -32,7 +32,7 @@ export default function SeoHead({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="Budget Saviour" />
+      <meta property="og:site_name" content="Saral Calc" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ export default function SeoHead({
       <meta name="twitter:image" content={ogImage} />
 
       {/* Additional SEO tags */}
-      <meta name="author" content="Budget Saviour" />
+      <meta name="author" content="Saral Calc" />
       <meta name="language" content="English" />
       <meta name="revisit-after" content="7 days" />
 
@@ -64,8 +64,8 @@ export default function SeoHead({
             },
             provider: {
               "@type": "Organization",
-              name: "Budget Saviour",
-              url: "https://budgetsaviour.com",
+              name: "Saral Calc",
+              url: "https://Saralcalc.online",
             },
           }),
         }}

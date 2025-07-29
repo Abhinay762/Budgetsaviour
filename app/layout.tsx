@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "Calculate LIC Jeevan Saral Plan 165 maturity value with our free online calculator. Get accurate maturity amount, bonus, and returns for your LIC policy.",
   keywords:
     "jeevan saral maturity calculator, lic jeevan saral maturity calculator, lic jeevan saral plan 165 maturity calculator excel, lic calculator",
-  authors: [{ name: "Budget Saviour" }],
+  authors: [{ name: "Saral Calc" }],
   robots: "index, follow",
   openGraph: {
     title: "LIC Jeevan Saral Plan 165 Maturity Calculator",
     description: "Calculate your LIC Jeevan Saral Plan 165 maturity value accurately",
     type: "website",
-    url: "https://budgetsaviour.com",
+    url: "https://Saralcalc.online",
   },
   generator: 'v0.dev'
 }
@@ -34,12 +34,12 @@ export default function RootLayout({
         {/* Google Search Console */}
         <meta
           name='google-site-verification'
-          content='h6KedsBZTrsDyekGvQZJ5tNnWk71BLMEZ0DTjg_CFlo'
+          content='wzJiD9Hmr2zpQPuWq4tWScIgnLhe5FaEgXQhAjB4j5E'
         />
         {/* Google Analytics */}
         <script
           async
-          src='https://www.googletagmanager.com/gtag/js?id=G-3B9Z6N6LPH'></script>
+          src='https://www.googletagmanager.com/gtag/js?id=G-Z0CYEC2F61'></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -48,14 +48,14 @@ export default function RootLayout({
 							dataLayer.push(arguments);
 						}
 						gtag('js', new Date());
-						gtag('config', 'G-3B9Z6N6LPH');
+						gtag('config', 'G-Z0CYEC2F61');
 					`,
           }}
         />
         {/* Google AdSense */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9473668083980259"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4194876480312109"
           crossOrigin="anonymous"
         ></script>
       </head>

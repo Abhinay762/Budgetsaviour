@@ -4,12 +4,12 @@ import { Users, Target, Award, Shield } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "About Budget Saviour - LIC Policy & Maturity Calculator Experts",
+  title: "About Saral Calc - LIC Policy & Maturity Calculator Experts",
   description:
-    "Learn about Budget Saviour's mission to simplify LIC policy planning. Trusted by thousands, we provide accurate maturity & surrender value calculators online.",
+    "Learn about Saral Calc's mission to simplify LIC policy planning. Trusted by thousands, we provide accurate maturity & surrender value calculators online.",
   keywords: [
-    "Budget Saviour",
-    "About Budget Saviour",
+    "Saral Calc",
+    "About Saral Calc",
     "LIC calculator",
     "LIC maturity calculator",
     "LIC surrender value",
@@ -20,20 +20,20 @@ export const metadata: Metadata = {
     "best LIC calculator India",
   ],
   openGraph: {
-    title: "About Budget Saviour - Trusted LIC Plan Calculator Platform",
+    title: "About Saral Calc - Trusted LIC Plan Calculator Platform",
     description:
-      "Discover how Budget Saviour helps you plan better with accurate LIC tools and expert-backed guidance. Your financial partner in LIC policy management.",
-    url: "https://budgetsaviour.com/about",
-    siteName: "Budget Saviour",
+      "Discover how Saral Calc helps you plan better with accurate LIC tools and expert-backed guidance. Your financial partner in LIC policy management.",
+    url: "https://Saralcalc.online/about",
+    siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Budget Saviour - LIC Planning Simplified",
+    title: "About Saral Calc - LIC Planning Simplified",
     description:
-      "Learn who we are and why Budget Saviour is India's most reliable LIC calculator site. Empower your policy decisions with confidence.",
-    site: "@budgetsaviour",
+      "Learn who we are and why Saral Calc is India's most reliable LIC calculator site. Empower your policy decisions with confidence.",
+    site: "@saralcalc",
   },
   robots: {
     index: true,
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://budgetsaviour.com/about",
+    canonical: "https://Saralcalc.online/about",
   },
-  metadataBase: new URL("https://budgetsaviour.com"),
+  metadataBase: new URL("https://Saralcalc.online"),
 }
 
 
@@ -60,11 +60,11 @@ export default function AboutPage() {
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold text-center mb-8">About Budget Saviour</h1>
+            <h1 className="text-4xl font-bold text-center mb-8">About Saral Calc</h1>
 
             <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
               <p className="text-lg text-gray-700 mb-6">
-                Welcome to Budget Saviour, your trusted partner in financial planning and LIC policy calculations. We
+                Welcome to Saral Calc, your trusted partner in financial planning and LIC policy calculations. We
                 are dedicated to providing accurate, easy-to-use calculators that help you make informed decisions about
                 your insurance and investment needs.
               </p>
@@ -97,7 +97,7 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-center">Why Choose Budget Saviour?</h2>
+              <h2 className="text-2xl font-semibold mb-6 text-center">Why Choose Saral Calc?</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">

@@ -12,8 +12,8 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="bg-yellow-400 text-black px-3 py-1 rounded font-bold text-lg">Budget</div>
-            <span className="text-xl font-semibold">Saviour</span>
+            <div className="bg-yellow-400 text-black px-3 py-1 rounded font-bold text-lg">Saral</div>
+            <span className="text-xl font-semibold">Calc</span>
           </Link>
 
           {/* Desktop Navigation */}

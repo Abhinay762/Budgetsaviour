@@ -3,36 +3,36 @@ import Footer from "@/components/Footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Disclaimer - Budget Saviour LIC Calculator Terms & Limitations",
+  title: "Disclaimer - Saral Calc LIC Calculator Terms & Limitations",
   description:
-    "Read Budget Saviour's disclaimer regarding LIC calculator accuracy, policy estimates, and financial planning tools. Important terms for using our calculators.",
+    "Read Saral Calc's disclaimer regarding LIC calculator accuracy, policy estimates, and financial planning tools. Important terms for using our calculators.",
   keywords: [
-    "Budget Saviour disclaimer",
+    "Saral Calc disclaimer",
     "LIC calculator disclaimer",
     "policy calculator terms",
     "financial planning disclaimer",
     "LIC estimate limitations",
     "calculator accuracy terms",
     "insurance tool disclaimer",
-    "Budget Saviour terms",
+    "Saral Calc terms",
     "LIC calculation limits",
     "policy planning disclaimer",
   ],
   openGraph: {
-    title: "Disclaimer - Budget Saviour LIC Calculator Terms",
+    title: "Disclaimer - Saral Calc LIC Calculator Terms",
     description:
-      "Important disclaimer and terms regarding the use of Budget Saviour's LIC calculators and financial planning tools. Read before using our services.",
-    url: "https://budgetsaviour.com/disclaimer",
-    siteName: "Budget Saviour",
+      "Important disclaimer and terms regarding the use of Saral Calc's LIC calculators and financial planning tools. Read before using our services.",
+    url: "https://Saralcalc.online/disclaimer",
+    siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Budget Saviour Disclaimer - Calculator Terms",
+    title: "Saral Calc Disclaimer - Calculator Terms",
     description:
-      "Read our disclaimer regarding LIC calculator accuracy and limitations before using Budget Saviour's financial planning tools.",
-    site: "@budgetsaviour",
+      "Read our disclaimer regarding LIC calculator accuracy and limitations before using Saral Calc's financial planning tools.",
+    site: "@saralcalc",
   },
   robots: {
     index: true,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://budgetsaviour.com/disclaimer",
+    canonical: "https://Saralcalc.online/disclaimer",
   },
 }
 
@@ -59,7 +59,7 @@ export default function DisclaimerPage() {
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold text-center mb-8">Disclaimer</h1>
-            <p className="text-center text-gray-600 mb-8">Last updated: January 2025</p>
+            <p className="text-center text-gray-600 mb-8">Last updated: July 2025</p>
 
             <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
@@ -73,7 +73,7 @@ export default function DisclaimerPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">1. General Information</h2>
                 <p className="text-gray-700 mb-4">
-                  Budget Saviour provides LIC policy calculators and related financial tools. The information on this
+                  Saral Calc provides LIC policy calculators and related financial tools. The information on this
                   website is provided on an "as is" basis. While we strive to provide accurate and up-to-date
                   information, we make no representations or warranties of any kind, express or implied, about the
                   completeness, accuracy, reliability, suitability, or availability of the information, products,
@@ -139,7 +139,7 @@ export default function DisclaimerPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">6. Limitation of Liability</h2>
                 <p className="text-gray-700 mb-4">
-                  In no event shall Budget Saviour, its owners, employees, or affiliates be liable for any direct,
+                  In no event shall Saral Calc, its owners, employees, or affiliates be liable for any direct,
                   indirect, incidental, special, consequential, or punitive damages arising out of your use of this
                   website or the information provided herein.
                 </p>
@@ -172,13 +172,13 @@ export default function DisclaimerPage() {
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
                     <strong>Email:</strong>{' '}
-                    <a href="mailto:budgetsaviour7@gmail.com" className="text-blue-600 underline">
-                      budgetsaviour7@gmail.com
+                    <a href="mailto:saralcalc@gmail.com" className="text-blue-600 underline">
+                      saralcalc@gmail.com
                     </a>
                     <br />
                     <strong>Website:</strong>{' '}
-                    <a href="https://budgetsaviour.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
-                      budgetsaviour.com
+                    <a href="https://Saralcalc.online" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                      Saralcalc.online
                     </a>
                   </p>
                 </div>

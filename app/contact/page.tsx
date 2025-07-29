@@ -4,45 +4,45 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Budget Saviour - Get Help with LIC Calculators & Policy Planning",
+  title: "Contact Saral Calc - Get Help with LIC Calculators & Policy Planning",
   description:
-    "Need help with LIC calculations or policy planning? Contact Budget Saviour's expert team. Get quick support for maturity calculators, surrender values & more.",
+    "Need help with LIC calculations or policy planning? Contact Saral Calc's expert team. Get quick support for maturity calculators, surrender values & more.",
   keywords: [
-    "contact Budget Saviour",
+    "contact Saral Calc",
     "LIC calculator support",
     "LIC policy help",
     "customer support",
     "LIC calculation assistance",
     "insurance planning help",
-    "Budget Saviour contact",
+    "Saral Calc contact",
     "LIC expert consultation",
     "financial planning support",
     "LIC calculator queries",
   ],
   openGraph: {
-    title: "Contact Budget Saviour - Expert LIC Calculator Support",
+    title: "Contact Saral Calc - Expert LIC Calculator Support",
     description:
-      "Get in touch with Budget Saviour for personalized LIC policy guidance and calculator support. Our experts are here to help with your insurance planning needs.",
-    url: "https://budgetsaviour.com/contact",
-    siteName: "Budget Saviour",
+      "Get in touch with Saral Calc for personalized LIC policy guidance and calculator support. Our experts are here to help with your insurance planning needs.",
+    url: "https://Saralcalc.online/contact",
+    siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://budgetsaviour.com/images/contact-support-og.jpg",
+        url: "https://Saralcalc.online/images/contact-support-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Budget Saviour Support Team",
+        alt: "Contact Saral Calc Support Team",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Budget Saviour - LIC Calculator Support",
+    title: "Contact Saral Calc - LIC Calculator Support",
     description:
       "Need help with LIC calculations? Contact our expert team for personalized guidance on policy planning and maturity calculations.",
-    site: "@budgetsaviour",
-    images: ["https://budgetsaviour.com/images/contact-support-og.jpg"],
+    site: "@saralcalc",
+    images: ["https://Saralcalc.online/images/contact-support-og.jpg"],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://budgetsaviour.com/contact",
+    canonical: "https://Saralcalc.online/contact",
   },
 }
 
@@ -138,7 +138,7 @@ export default function ContactPage() {
                       <Mail className="w-6 h-6 text-blue-600 mt-1 mr-4" />
                       <div>
                         <h3 className="font-semibold text-gray-800">Email</h3>
-                        <p className="text-gray-600">budgetsaviour7@gmail.com</p>
+                        <p className="text-gray-600">saralcalc@gmail.com</p>
 
                       </div>
                     </div>

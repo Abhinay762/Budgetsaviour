@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300 text-sm">© 2025 www.budgetsaviour.com - All rights reserved</p>
+          <p className="text-gray-300 text-sm">© 2025 www.Saralcalc.online - All rights reserved</p>
         </div>
       </div>
     </footer>

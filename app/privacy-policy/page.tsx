@@ -3,11 +3,11 @@ import Footer from "@/components/Footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Budget Saviour Data Protection & User Privacy",
+  title: "Privacy Policy - Saral Calc Data Protection & User Privacy",
   description:
-    "Budget Saviour's Privacy Policy explains how we collect, use, and protect your data when using LIC calculators and financial planning tools. Your privacy matters.",
+    "Saral Calc's Privacy Policy explains how we collect, use, and protect your data when using LIC calculators and financial planning tools. Your privacy matters.",
   keywords: [
-    "Budget Saviour privacy policy",
+    "Saral Calc privacy policy",
     "data protection",
     "user privacy",
     "LIC calculator privacy",
@@ -16,23 +16,23 @@ export const metadata: Metadata = {
     "data security",
     "privacy protection",
     "user information policy",
-    "Budget Saviour data policy",
+    "Saral Calc data policy",
   ],
   openGraph: {
-    title: "Privacy Policy - Budget Saviour Data Protection",
+    title: "Privacy Policy - Saral Calc Data Protection",
     description:
-      "Learn how Budget Saviour protects your privacy and handles personal data when you use our LIC calculators and financial planning services.",
-    url: "https://budgetsaviour.com/privacy-policy",
-    siteName: "Budget Saviour",
+      "Learn how Saral Calc protects your privacy and handles personal data when you use our LIC calculators and financial planning services.",
+    url: "https://Saralcalc.online/privacy-policy",
+    siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Budget Saviour Privacy Policy",
+    title: "Saral Calc Privacy Policy",
     description:
-      "Our commitment to protecting your privacy while using LIC calculators and financial planning tools on Budget Saviour.",
-    site: "@budgetsaviour",
+      "Our commitment to protecting your privacy while using LIC calculators and financial planning tools on Saral Calc.",
+    site: "@saralcalc",
   },
   robots: {
     index: true,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://budgetsaviour.com/privacy-policy",
+    canonical: "https://Saralcalc.online/privacy-policy",
   },
 }
 
@@ -64,9 +64,9 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
                 <p className="text-gray-700 mb-4">
-                  Budget Saviour ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+                  Saral Calc ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
                   explains how we collect, use, disclose, and safeguard your information when you visit our website
-                  budgetsaviour.com and use our LIC calculators.
+                  Saralcalc.online and use our LIC calculators.
                 </p>
               </section>
 
@@ -189,7 +189,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
-                    <strong>Email:</strong> budgetsaviour7@gmail.com
+                    <strong>Email:</strong> saralcalc@gmail.com
                     <br />
                     <strong>Address:</strong> Pune , Maharashtra
                   </p>

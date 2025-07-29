@@ -3,36 +3,36 @@ import Footer from "@/components/Footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions - Budget Saviour LIC Calculator Usage Policy",
+  title: "Terms & Conditions - Saral Calc LIC Calculator Usage Policy",
   description:
-    "Read Budget Saviour's Terms & Conditions for using LIC calculators, maturity estimators, and financial planning tools. User agreement and service terms.",
+    "Read Saral Calc's Terms & Conditions for using LIC calculators, maturity estimators, and financial planning tools. User agreement and service terms.",
   keywords: [
-    "Budget Saviour terms conditions",
+    "Saral Calc terms conditions",
     "LIC calculator terms",
     "user agreement",
     "service terms",
     "calculator usage policy",
-    "Budget Saviour policy",
+    "Saral Calc policy",
     "LIC tool terms",
     "financial planning terms",
     "website terms conditions",
     "calculator service agreement",
   ],
   openGraph: {
-    title: "Terms & Conditions - Budget Saviour Service Agreement",
+    title: "Terms & Conditions - Saral Calc Service Agreement",
     description:
-      "Complete terms and conditions for using Budget Saviour's LIC calculators and financial planning services. User rights and responsibilities.",
-    url: "https://budgetsaviour.com/terms-conditions",
-    siteName: "Budget Saviour",
+      "Complete terms and conditions for using Saral Calc's LIC calculators and financial planning services. User rights and responsibilities.",
+    url: "https://Saralcalc.online/terms-conditions",
+    siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Budget Saviour Terms & Conditions",
+    title: "Saral Calc Terms & Conditions",
     description:
-      "Review our terms and conditions for using LIC calculators and financial planning tools on Budget Saviour platform.",
-    site: "@budgetsaviour",
+      "Review our terms and conditions for using LIC calculators and financial planning tools on Saral Calc platform.",
+    site: "@saralcalc",
   },
   robots: {
     index: true,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://budgetsaviour.com/terms-conditions",
+    canonical: "https://Saralcalc.online/terms-conditions",
   },
 }
 
@@ -65,7 +65,7 @@ export default function TermsConditionsPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
                 <p className="text-gray-700 mb-4">
-                  By accessing and using the Budget Saviour website (budgetsaviour.com), you accept and agree to be
+                  By accessing and using the Saral Calc website (Saralcalc.online), you accept and agree to be
                   bound by the terms and provision of this agreement.
                 </p>
               </section>
@@ -73,7 +73,7 @@ export default function TermsConditionsPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">2. Use License</h2>
                 <p className="text-gray-700 mb-4">
-                  Permission is granted to temporarily download one copy of the materials on Budget Saviour's website
+                  Permission is granted to temporarily download one copy of the materials on Saral Calc's website
                   for personal, non-commercial transitory viewing only.
                 </p>
                 <p className="text-gray-700 mb-4">
@@ -110,7 +110,7 @@ export default function TermsConditionsPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">5. Intellectual Property</h2>
                 <p className="text-gray-700 mb-4">
-                  The content, design, and functionality of this website are owned by Budget Saviour and are protected
+                  The content, design, and functionality of this website are owned by Saral Calc and are protected
                   by copyright and other intellectual property laws.
                 </p>
               </section>
@@ -127,14 +127,14 @@ export default function TermsConditionsPage() {
                 <h2 className="text-2xl font-semibold mb-4">7. Disclaimers</h2>
                 <p className="text-gray-700 mb-4">
                   The information on this website is provided on an 'as is' basis. To the fullest extent permitted by
-                  law, Budget Saviour excludes all representations, warranties, and conditions.
+                  law, Saral Calc excludes all representations, warranties, and conditions.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-semibold mb-4">8. Limitations</h2>
                 <p className="text-gray-700 mb-4">
-                  Budget Saviour shall not be liable for any damages arising out of the use or inability to use the
+                  Saral Calc shall not be liable for any damages arising out of the use or inability to use the
                   materials on this website.
                 </p>
               </section>
@@ -142,7 +142,7 @@ export default function TermsConditionsPage() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">9. Revisions</h2>
                 <p className="text-gray-700 mb-4">
-                  Budget Saviour may revise these terms of service at any time without notice. By using this website,
+                  Saral Calc may revise these terms of service at any time without notice. By using this website,
                   you agree to be bound by the current version of these terms.
                 </p>
               </section>
@@ -162,9 +162,9 @@ export default function TermsConditionsPage() {
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
-                    <strong>Email:</strong> legal@budgetsaviour.com
+                    <strong>Email:</strong> legal@Saralcalc.online
                     <br />
-                    <strong>Address:</strong> Budget Saviour Technologies, 123 Financial District, Mumbai, Maharashtra
+                    <strong>Address:</strong> Saral Calc Technologies, 123 Financial District, Mumbai, Maharashtra
                     400001, India
                   </p>
                 </div>
