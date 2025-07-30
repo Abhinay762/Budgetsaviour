@@ -15,30 +15,30 @@ export const metadata: Metadata = {
         "LIC Jeevan Saral benefits",
     ],
     openGraph: {
-        title: "LIC Jeevan Saral Plan 165 Maturity Calculator | SaralCalc",
+        title: "Lic Jeevan Saral Maturity Calculator | SaralCalc",
         description:
             "Instantly calculate your LIC Jeevan Saral Plan 165 maturity value. Get accurate bonus & return estimations with our free online tool.",
-        url: "https://Saralcalc.online/maturity-calculator/lic-jeevan-saral-165",
+        url: "https://saralcalc.online/lic-jeevan-saral-165",
         siteName: "SaralCalc",
         type: "website",
         images: [
             {
-                url: "https://Saralcalc.online/images/lic-jeevan-saral-og.jpg",
+                url: "https://saralcalc.online/images/lic-jeevan-saral-og.jpg",
                 width: 1200,
                 height: 630,
-                alt: "LIC Jeevan Saral Plan 165 Maturity Calculator",
+                alt: "Lic Jeevan Saral Maturity Calculator",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "LIC Jeevan Saral Plan 165 Maturity Calculator",
+        title: "Lic Jeevan Saral Maturity Calculator",
         description:
             "Try our Jeevan Saral 165 calculator to estimate your LIC maturity value with bonus and loyalty additions.",
-        images: ["https://Saralcalc.online/images/lic-jeevan-saral-og.jpg"],
+        images: ["https://saralcalc.online/images/lic-jeevan-saral-og.jpg"],
     },
     alternates: {
-        canonical: "https://Saralcalc.online/maturity-calculator",
+        canonical: "https://saralcalc.online",
     },
     robots: {
         index: true,

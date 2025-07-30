@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Terms & Conditions - Saral Calc Service Agreement",
     description:
       "Complete terms and conditions for using Saral Calc's LIC calculators and financial planning services. User rights and responsibilities.",
-    url: "https://Saralcalc.online/terms-conditions",
+    url: "https://saralcalc.online/terms-conditions",
     siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://Saralcalc.online/terms-conditions",
+    canonical: "https://saralcalc.online/terms-conditions",
   },
 }
 
@@ -59,13 +59,13 @@ export default function TermsConditionsPage() {
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold text-center mb-8">Terms & Conditions</h1>
-            <p className="text-center text-gray-600 mb-8">Last updated: January 2025</p>
+            <p className="text-center text-gray-600 mb-8">Last updated: July 2025</p>
 
             <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
               <section>
                 <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
                 <p className="text-gray-700 mb-4">
-                  By accessing and using the Saral Calc website (Saralcalc.online), you accept and agree to be
+                  By accessing and using the Saral Calc website (saralcalc.online), you accept and agree to be
                   bound by the terms and provision of this agreement.
                 </p>
               </section>
@@ -162,8 +162,7 @@ export default function TermsConditionsPage() {
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
-                    <strong>Email:</strong> legal@Saralcalc.online
-                    <br />
+                    <strong>Email:</strong> legal@saralcalc.online                    <br />
                     <strong>Address:</strong> Saral Calc Technologies, 123 Financial District, Mumbai, Maharashtra
                     400001, India
                   </p>

@@ -5,6 +5,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import CalculatorForm, { type CalculatorData } from "@/components/CalculatorForm"
 import CalculatorResult from "@/components/CalculatorResult"
+import SeoHead from "@/components/SeoHead"
 
 export default function JeevanSaralCalculatorPage() {
   const [calculationData, setCalculationData] = useState<CalculatorData | null>(null)
@@ -18,11 +19,20 @@ export default function JeevanSaralCalculatorPage() {
   return (
     <>
       <Header />
+
+      {/* ✅ SEO Meta */}
+      <SeoHead
+        title="LIC Jeevan Saral 165 Maturity Calculator – Bonus & Loyalty Addition"
+        description="Use this free LIC Jeevan Saral Plan 165 calculator to estimate your maturity amount, bonuses, and loyalty additions. Instant, accurate results."
+        canonicalUrl="https://saralcalc.online/lic-jeevan-saral-165"
+        ogImage="https://saralcalc.online/og-image.jpg"
+      />
+
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           {/* Page Header */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">LIC Jeevan Saral Plan 165 Maturity Calculator</h1>
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">Lic Jeevan Saral Maturity Calculator</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Instantly calculate the maturity value of your LIC Jeevan Saral Plan 165 policy. Get detailed estimates, including bonuses and loyalty additions.
             </p>
@@ -72,7 +82,7 @@ export default function JeevanSaralCalculatorPage() {
             </div>
           </div>
 
-          {/* FAQ Section */}
+          {/* ✅ Updated FAQ Section */}
           <div className="calculator-card mt-8">
             <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
             <div className="space-y-6">
@@ -84,58 +94,58 @@ export default function JeevanSaralCalculatorPage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">What are the disadvantages of Jeevan Saral?</h3>
+                <h3 className="text-lg font-semibold mb-2">What drawbacks does Jeevan Saral have?</h3>
                 <p className="text-gray-700">
-                  The plan was discontinued for new purchases due to regulatory changes. It also lacks transparency in bonus and loyalty addition declarations and may offer lower returns compared to modern investment-linked products.
+                  Because of changes in regulations, the plan was no longer available for new purchasers. Additionally, it may provide lesser returns than more recent investment-linked schemes and lacks clarity in bonus and loyalty addition disclosures.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">What are the benefits of Jeevan Saral with profits?</h3>
+                <h3 className="text-lg font-semibold mb-2">What financial advantages can Jeevan Saral offer?</h3>
                 <p className="text-gray-700">
-                  With-profits means you earn a share in LIC’s surplus. Jeevan Saral policyholders receive annual bonuses and possible loyalty additions, increasing the maturity and death benefit amounts over time.
+                  With-profits entitles you to a portion of LIC's excess. Annual bonuses and potential loyalty enhancements are given to Jeevan Saral policyholders, gradually raising the maturity and death benefit amounts.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">Can we take a loan on a Jeevan-Saral policy?</h3>
+                <h3 className="text-lg font-semibold mb-2">Does a Jeevan-Saral policy allow us to borrow money?</h3>
                 <p className="text-gray-700">
-                  Yes, you can take a policy loan after completing at least 3 years of premium payment. The loan amount is usually 85–90% of the surrender value, and interest is payable as per LIC’s prevailing rates.
+                  Yes, after paying premiums for at least three years, you are eligible to take out a policy loan. Interest is due at the current rates set by LIC, and the loan amount is often between 85 and 90 percent of the surrender value.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">How to calculate Jeevan Saral maturity amount?</h3>
+                <h3 className="text-lg font-semibold mb-2">How is the maturity amount of Jeevan Saral calculated?</h3>
                 <p className="text-gray-700">
-                  Use our free online Jeevan Saral 165 maturity calculator to estimate your maturity value. It considers premium paid, age at entry, policy term, sum assured, bonus, and loyalty additions.
+                  To determine your maturity value, use our free online Jeevan Saral 165 maturity calculator. It takes into account the policy duration, sum assured, bonus, age at entry, premium paid, and loyalty additions.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">Is it good to take a loan against a LIC policy?</h3>
+                <h3 className="text-lg font-semibold mb-2">Is it okay to take a loan from a LIC policy?</h3>
                 <p className="text-gray-700">
-                  Loans against LIC policies are safe and easy with lower interest rates. It’s a good option if you need short-term funds without affecting your credit score. However, unpaid loans reduce the maturity or death benefit.
+                  Lower interest rates and ease of use characterise loans secured by LIC policies. If you require short-term funding that won't impact your credit score, this is an excellent choice. On the other hand, the maturity or death benefit is diminished by unpaid debts.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">Is LIC Jeevan Saral still available?</h3>
+                <h3 className="text-lg font-semibold mb-2">Is it still possible to get LIC Jeevan Saral?</h3>
                 <p className="text-gray-700">
-                  LIC has discontinued Jeevan Saral for new customers. However, if you already have a policy, it remains active with all benefits including bonuses and maturity payouts.
+                  Jeevan Saral is no longer available to new clients of LIC. If you currently have a policy, though, it is still in effect and offers all of its benefits, such as incentives and maturity payouts.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">Is the calculator 100% accurate?</h3>
+                <h3 className="text-lg font-semibold mb-2">Does the calculator have perfect accuracy?</h3>
                 <p className="text-gray-700">
-                  Our calculator gives you a near-accurate estimate based on current LIC rates and assumptions. However, final maturity values depend on LIC's declared bonuses and loyalty additions at the time of payout.
+                  Using assumptions and current LIC rates, our calculator provides you with an estimate that is almost correct. Final maturity values, however, are contingent to the bonuses and loyalty additions announced by LIC at the time of payout.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">What’s the loyalty addition amount?</h3>
+                <h3 className="text-lg font-semibold mb-2">How much is the loyalty addition?</h3>
                 <p className="text-gray-700">
-                  Loyalty additions are declared by LIC based on the policy term and performance of the fund. They are typically added for policies held for over 10 years and can significantly enhance your returns.
+                  LIC announces loyalty additions based on the fund's performance and policy term. They can greatly increase your returns and are usually included for plans held for more than ten years.
                 </p>
               </div>
             </div>
@@ -143,6 +153,7 @@ export default function JeevanSaralCalculatorPage() {
 
         </div>
       </main>
+
       <Footer />
     </>
   )

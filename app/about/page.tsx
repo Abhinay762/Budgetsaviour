@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "About Saral Calc - Trusted LIC Plan Calculator Platform",
     description:
       "Discover how Saral Calc helps you plan better with accurate LIC tools and expert-backed guidance. Your financial partner in LIC policy management.",
-    url: "https://Saralcalc.online/about",
+    url: "https://saralcalc.online/about",
     siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://Saralcalc.online/about",
+    canonical: "https://saralcalc.online/about",
   },
-  metadataBase: new URL("https://Saralcalc.online"),
+  metadataBase: new URL("https://saralcalc.online"),
 }
 
 

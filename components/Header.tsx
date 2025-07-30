@@ -28,7 +28,7 @@ export default function Header() {
               </button>
               <div className="absolute top-full left-0 mt-2 w-64 bg-white text-gray-800 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <Link
-                  href="/maturity-calculator/lic-jeevan-saral-165"
+                  href="/lic-jeevan-saral-165"
                   className="block px-4 py-3 hover:bg-gray-100 rounded-t-lg"
                 >
                   LIC Jeevan Saral Plan 165
@@ -70,7 +70,7 @@ export default function Header() {
                 Home
               </Link>
               <Link
-                href="/maturity-calculator/lic-jeevan-saral-165"
+                href="/lic-jeevan-saral-165"
                 className="hover:text-yellow-300 transition-colors"
               >
                 LIC Jeevan Saral Plan 165

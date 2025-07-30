@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy - Saral Calc Data Protection",
     description:
       "Learn how Saral Calc protects your privacy and handles personal data when you use our LIC calculators and financial planning services.",
-    url: "https://Saralcalc.online/privacy-policy",
+    url: "https://saralcalc.online/privacy-policy",
     siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://Saralcalc.online/privacy-policy",
+    canonical: "https://saralcalc.online/privacy-policy",
   },
 }
 
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
                 <p className="text-gray-700 mb-4">
                   Saral Calc ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
                   explains how we collect, use, disclose, and safeguard your information when you visit our website
-                  Saralcalc.online and use our LIC calculators.
+                  saralcalc.online and use our LIC calculators.
                 </p>
               </section>
 

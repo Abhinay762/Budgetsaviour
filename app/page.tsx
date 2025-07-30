@@ -17,7 +17,7 @@ export default function HomePage() {
               results for LIC Jeevan Saral Plan 165 and other popular plans.
             </p>
             <Link
-              href="/maturity-calculator/lic-jeevan-saral-165"
+              href="/lic-jeevan-saral-165"
               className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors inline-flex items-center"
             >
               <Calculator className="w-6 h-6 mr-2" />
@@ -75,7 +75,7 @@ export default function HomePage() {
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">With Profits</span>
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Loyalty Addition</span>
                 </div>
-                <Link href="/maturity-calculator/lic-jeevan-saral-165" className="btn-primary inline-flex items-center">
+                <Link href="/lic-jeevan-saral-165" className="btn-primary inline-flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Calculate Now
                 </Link>
@@ -113,7 +113,7 @@ export default function HomePage() {
               </ol>
 
               <p className="text-gray-700">
-                Our LIC Jeevan Saral Plan 165 maturity calculator provides accurate estimates based on current bonus
+                Our Lic Jeevan Saral Maturity Calculator provides accurate estimates based on current bonus
                 rates and policy terms. Use this tool to plan your financial future effectively.
               </p>
             </div>

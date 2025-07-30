@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["Saralcalc.online"],
+    domains: ["saralcalc.online"],
     formats: ["image/webp", "image/avif"],
     unoptimized: true,
   },
@@ -38,7 +38,7 @@ const nextConfig = {
     return [
       {
         source: "/calculator",
-        destination: "/maturity-calculator/lic-jeevan-saral-165",
+        destination: "/lic-jeevan-saral-165",
         permanent: true,
       },
     ]

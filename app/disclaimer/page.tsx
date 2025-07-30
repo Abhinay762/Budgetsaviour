@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Disclaimer - Saral Calc LIC Calculator Terms",
     description:
       "Important disclaimer and terms regarding the use of Saral Calc's LIC calculators and financial planning tools. Read before using our services.",
-    url: "https://Saralcalc.online/disclaimer",
+    url: "https://saralcalc.online/disclaimer",
     siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://Saralcalc.online/disclaimer",
+    canonical: "https://saralcalc.online/disclaimer",
   },
 }
 
@@ -177,9 +177,8 @@ export default function DisclaimerPage() {
                     </a>
                     <br />
                     <strong>Website:</strong>{' '}
-                    <a href="https://Saralcalc.online" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
-                      Saralcalc.online
-                    </a>
+                    <a href="https://saralcalc.online" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                      saralcalc.online                    </a>
                   </p>
                 </div>
               </section>

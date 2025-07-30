@@ -7,18 +7,18 @@ import Script from "next/script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LIC Jeevan Saral Plan 165 Maturity Calculator | Calculate Returns",
+  title: "Lic Jeevan Saral Maturity Calculator | Calculate Returns",
   description:
     "Calculate LIC Jeevan Saral Plan 165 maturity value with our free online calculator. Get accurate maturity amount, bonus, and returns for your LIC policy.",
   keywords:
-    "jeevan saral maturity calculator, lic jeevan saral maturity calculator, lic jeevan saral plan 165 maturity calculator excel, lic calculator",
+    "jeevan saral maturity calculator, lic jeevan saral maturity calculator, Lic Jeevan Saral Maturity Calculator excel, lic calculator",
   authors: [{ name: "Saral Calc" }],
   robots: "index, follow",
   openGraph: {
-    title: "LIC Jeevan Saral Plan 165 Maturity Calculator",
+    title: "Lic Jeevan Saral Maturity Calculator",
     description: "Calculate your LIC Jeevan Saral Plan 165 maturity value accurately",
     type: "website",
-    url: "https://Saralcalc.online",
+    url: "https://saralcalc.online",
   },
   generator: 'v0.dev'
 }

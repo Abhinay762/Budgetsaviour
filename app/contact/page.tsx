@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     title: "Contact Saral Calc - Expert LIC Calculator Support",
     description:
       "Get in touch with Saral Calc for personalized LIC policy guidance and calculator support. Our experts are here to help with your insurance planning needs.",
-    url: "https://Saralcalc.online/contact",
+    url: "https://saralcalc.online/contact",
     siteName: "Saral Calc",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://Saralcalc.online/images/contact-support-og.jpg",
+        url: "https://saralcalc.online/images/contact-support-og.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Saral Calc Support Team",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description:
       "Need help with LIC calculations? Contact our expert team for personalized guidance on policy planning and maturity calculations.",
     site: "@saralcalc",
-    images: ["https://Saralcalc.online/images/contact-support-og.jpg"],
+    images: ["https://saralcalc.online/images/contact-support-og.jpg"],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://Saralcalc.online/contact",
+    canonical: "https://saralcalc.online/contact",
   },
 }
 
