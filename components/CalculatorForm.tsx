@@ -42,7 +42,7 @@ export default function CalculatorForm({ onCalculate }: CalculatorFormProps) {
     <div className="calculator-card">
       <div className="flex items-center mb-6">
         <Calculator className="w-8 h-8 text-blue-600 mr-3" />
-        <h2 className="text-2xl font-bold text-gray-800">LIC Jeevan Saral Plan 165 Calculator</h2>
+        <h2 className="text-2xl font-bold text-gray-800">LIC Jeevan Saral Maturity Calculator</h2>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">

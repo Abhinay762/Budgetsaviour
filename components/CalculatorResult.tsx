@@ -8,7 +8,7 @@ interface CalculatorResultProps {
 }
 
 export default function CalculatorResult({ data }: CalculatorResultProps) {
-  // Simplified calculation logic for LIC Jeevan Saral Plan 165
+  // Simplified calculation logic for Jeevan Saral Maturity Plan
   const calculateMaturityValue = () => {
     const totalPremiumPaid = data.premiumAmount * data.premiumPayingTerm
     const bonusRate = 0.045 // Approximate bonus rate

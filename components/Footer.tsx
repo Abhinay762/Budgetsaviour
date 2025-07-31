@@ -37,8 +37,8 @@ export default function Footer() {
             <h4 className="text-md font-semibold mb-4">Calculators</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/lic-jeevan-saral-165" className="text-gray-300 hover:text-white">
-                  LIC Jeevan Saral Plan 165
+                <Link href="/jeevan-saral-maturity-calculator" className="text-gray-300 hover:text-white">
+                  Jeevan Saral Maturity Plan
                 </Link>
               </li>
             </ul>

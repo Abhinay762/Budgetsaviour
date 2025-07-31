@@ -38,7 +38,7 @@ const nextConfig = {
     return [
       {
         source: "/calculator",
-        destination: "/lic-jeevan-saral-165",
+        destination: "/jeevan-saral-maturity-calculator",
         permanent: true,
       },
     ]

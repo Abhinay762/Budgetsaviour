@@ -38,7 +38,7 @@ export default function NotFoundPage() {
                 Go Home
               </Link>
               <Link
-                href="/lic-jeevan-saral-165"
+                href="/jeevan-saral-maturity-calculator"
                 className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
               >
                 <Calculator className="w-5 h-5 mr-2" />

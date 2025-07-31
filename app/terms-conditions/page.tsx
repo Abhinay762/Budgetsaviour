@@ -71,7 +71,7 @@ export default function TermsConditionsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold mb-4">2. Use License</h2>
+                <h2 className="text-2xl font-semibold mb-4">2. Use LICense</h2>
                 <p className="text-gray-700 mb-4">
                   Permission is granted to temporarily download one copy of the materials on Saral Calc's website
                   for personal, non-commercial transitory viewing only.

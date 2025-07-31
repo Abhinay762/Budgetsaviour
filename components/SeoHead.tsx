@@ -9,9 +9,9 @@ interface SeoHeadProps {
 }
 
 export default function SeoHead({
-  title = "Lic Jeevan Saral Maturity Calculator | Saral Calc",
-  description = "Calculate LIC Jeevan Saral Plan 165 maturity value with our free online calculator. Get accurate maturity amount, bonus, and returns for your LIC policy.",
-  keywords = "jeevan saral maturity calculator, lic jeevan saral maturity calculator, Lic Jeevan Saral Maturity Calculator excel, lic calculator",
+  title = "LIC Jeevan Saral Maturity Calculator | Saral Calc",
+  description = "Calculate Jeevan Saral Maturity Plan maturity value with our free online calculator. Get accurate maturity amount, bonus, and returns for your LIC policy.",
+  keywords = "jeevan saral maturity calculator, lic jeevan saral maturity calculator, LIC Jeevan Saral Maturity Calculator excel, lic calculator",
   canonicalUrl = "https://saralcalc.online",
   ogImage = "/og-image.jpg",
 }: SeoHeadProps) {
@@ -53,7 +53,7 @@ export default function SeoHead({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            name: "LIC Jeevan Saral Plan 165 Calculator",
+            name: "Jeevan Saral Maturity Plan Calculator",
             description: description,
             url: canonicalUrl,
             applicationCategory: "FinanceApplication",

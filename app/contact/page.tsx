@@ -1,28 +1,26 @@
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
-import type { Metadata } from "next"
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { Mail, MapPin, Clock } from "lucide-react";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Saral Calc - Get Help with LIC Calculators & Policy Planning",
+  title: "Contact Saral Calc – LIC Calculator Support & Policy Planning Help",
   description:
-    "Need help with LIC calculations or policy planning? Contact Saral Calc's expert team. Get quick support for maturity calculators, surrender values & more.",
+    "Need assistance with LIC maturity calculations or policy planning? Contact Saral Calc for expert help, quick support and guidance on calculator tools.",
   keywords: [
-    "contact Saral Calc",
-    "LIC calculator support",
-    "LIC policy help",
-    "customer support",
-    "LIC calculation assistance",
-    "insurance planning help",
     "Saral Calc contact",
-    "LIC expert consultation",
-    "financial planning support",
-    "LIC calculator queries",
+    "LIC calculator support",
+    "LIC policy planning",
+    "calculator assistance",
+    "Saral Calc help",
+    "LIC maturity calculator",
+    "customer support",
+    "insurance planning support",
   ],
   openGraph: {
-    title: "Contact Saral Calc - Expert LIC Calculator Support",
+    title: "Contact Saral Calc – LIC Calculator Support Team",
     description:
-      "Get in touch with Saral Calc for personalized LIC policy guidance and calculator support. Our experts are here to help with your insurance planning needs.",
+      "Get expert assistance on LIC Jeevan Saral maturity calculations and policy support. Contact Saral Calc for fast and reliable help.",
     url: "https://saralcalc.online/contact",
     siteName: "Saral Calc",
     locale: "en_IN",
@@ -38,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Saral Calc - LIC Calculator Support",
+    title: "Contact Saral Calc – LIC Calculation Help",
     description:
-      "Need help with LIC calculations? Contact our expert team for personalized guidance on policy planning and maturity calculations.",
+      "Need help with LIC maturity calculations or policy-related queries? Contact Saral Calc support for expert guidance.",
     site: "@saralcalc",
     images: ["https://saralcalc.online/images/contact-support-og.jpg"],
   },
@@ -58,138 +56,137 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://saralcalc.online/contact",
   },
-}
+};
 
 export default function ContactPage() {
   return (
     <>
       <Header />
       <main className="min-h-screen bg-gray-50">
-        <div className="container mx-auto px-4 py-12">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
-            <p className="text-xl text-gray-600 text-center mb-12">
-              Have questions about our calculators or need support? We're here to help!
+        <section className="container mx-auto px-4 py-16 max-w-5xl">
+          <div className="bg-white rounded-3xl shadow-lg p-10">
+            <h1 className="text-4xl font-bold text-center mb-4">Get in Touch</h1>
+            <p className="text-lg text-center text-gray-600 mb-10">
+              Whether you're unsure about your policy's maturity amount or just need help using our calculator, we're here for you.
             </p>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               {/* Contact Form */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
-                <h2 className="text-2xl font-semibold mb-6">Send us a Message</h2>
-                <form className="space-y-6">
+              <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6 shadow-sm">
+                <h2 className="text-2xl font-semibold mb-6">Send Us a Message</h2>
+                <form className="space-y-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="Enter your full name"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      placeholder="Your name"
                       required
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
                     <input
                       type="email"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="Enter your email address"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      placeholder="you@example.com"
                       required
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
-                    <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                      <option value="">Select a subject</option>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Subject *</label>
+                    <select
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      required
+                    >
+                      <option value="">Choose a topic</option>
                       <option value="calculator-support">Calculator Support</option>
                       <option value="technical-issue">Technical Issue</option>
                       <option value="feedback">Feedback</option>
-                      <option value="partnership">Partnership</option>
+                      <option value="partnership">Partnership Inquiry</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Message *</label>
                     <textarea
-                      rows={6}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="Enter your message here..."
+                      rows={5}
+                      className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                      placeholder="Write your message here..."
                       required
-                    ></textarea>
+                    />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-xl hover:bg-blue-700 transition"
                   >
                     Send Message
                   </button>
                 </form>
               </div>
 
-              {/* Contact Information */}
+              {/* Contact Info & Links */}
               <div className="space-y-8">
-                <div className="bg-white rounded-lg shadow-lg p-8">
-                  <h2 className="text-2xl font-semibold mb-6">Get in Touch</h2>
-
-                  <div className="space-y-6">
+                <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6 shadow-sm">
+                  <h2 className="text-2xl font-semibold mb-5">Contact Details</h2>
+                  <div className="space-y-5 text-sm text-gray-700">
                     <div className="flex items-start">
-                      <Mail className="w-6 h-6 text-blue-600 mt-1 mr-4" />
+                      <Mail className="w-5 h-5 text-blue-600 mt-1 mr-3" />
                       <div>
-                        <h3 className="font-semibold text-gray-800">Email</h3>
-                        <p className="text-gray-600">saralcalc@gmail.com</p>
-
-                      </div>
-                    </div>
-
-
-                    <div className="flex items-start">
-                      <MapPin className="w-6 h-6 text-blue-600 mt-1 mr-4" />
-                      <div>
-                        <h3 className="font-semibold text-gray-800">Address</h3>
-                        <p className="text-gray-600">
-                          Pune , India
-                        </p>
+                        <h3 className="font-semibold">Email</h3>
+                        <a
+                          href="mailto:saralcalc@gmail.com"
+                          className="text-blue-600 hover:underline"
+                        >
+                          saralcalc@gmail.com
+                        </a>
                       </div>
                     </div>
 
                     <div className="flex items-start">
-                      <Clock className="w-6 h-6 text-blue-600 mt-1 mr-4" />
+                      <MapPin className="w-5 h-5 text-blue-600 mt-1 mr-3" />
                       <div>
-                        <h3 className="font-semibold text-gray-800">Business Hours</h3>
-                        <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                        <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
-                        <p className="text-gray-600">Sunday: Closed</p>
+                        <h3 className="font-semibold">Address</h3>
+                        <p>Pune, Maharashtra, India</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <Clock className="w-5 h-5 text-blue-600 mt-1 mr-3" />
+                      <div>
+                        <h3 className="font-semibold">Working Hours</h3>
+                        <p>Mon – Fri: 9:00 AM – 6:00 PM</p>
+                        <p>Sat: 10:00 AM – 4:00 PM</p>
+                        <p>Sunday: Closed</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="bg-white rounded-lg shadow-lg p-8">
-                  <h2 className="text-2xl font-semibold mb-4">Quick Support</h2>
-                  <p className="text-gray-600 mb-4">
-                    For immediate assistance with our calculators, check out our FAQ section or browse our help
-                    documentation.
+                <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6 shadow-sm">
+                  <h2 className="text-2xl font-semibold mb-4">Helpful Links</h2>
+                  <p className="text-sm text-gray-600 mb-4">
+                    Need answers fast? Check these out:
                   </p>
-                  <div className="space-y-3">
-                    <a href="#" className="block text-blue-600 hover:text-blue-800 font-medium">
-                      → Frequently Asked Questions
-                    </a>
-                    <a href="#" className="block text-blue-600 hover:text-blue-800 font-medium">
-                      → Calculator Help Guide
-                    </a>
-                    <a href="#" className="block text-blue-600 hover:text-blue-800 font-medium">
-                      → Technical Support
-                    </a>
-                  </div>
+                  <ul className="space-y-2 text-blue-600 font-medium">
+                    <li>
+                      <a href="/faq" className="hover:underline">→ Frequently Asked Questions</a>
+                    </li>
+                    <li>
+                      <a href="/calculator-help" className="hover:underline">→ Calculator Help Guide</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
       <Footer />
     </>
-  )
+  );
 }

@@ -23,8 +23,8 @@ export default function JeevanSaralCalculatorPage() {
       {/* ✅ SEO Meta */}
       <SeoHead
         title="LIC Jeevan Saral 165 Maturity Calculator – Bonus & Loyalty Addition"
-        description="Use this free LIC Jeevan Saral Plan 165 calculator to estimate your maturity amount, bonuses, and loyalty additions. Instant, accurate results."
-        canonicalUrl="https://saralcalc.online/lic-jeevan-saral-165"
+        description="Use this free LIC Jeevan Saral Maturity calculator to estimate your maturity amount, bonuses, and loyalty additions. Instant, accurate results."
+        canonicalUrl="https://saralcalc.online/jeevan-saral-maturity-calculator"
         ogImage="https://saralcalc.online/og-image.jpg"
       />
 
@@ -32,9 +32,9 @@ export default function JeevanSaralCalculatorPage() {
         <div className="container mx-auto px-4 py-8">
           {/* Page Header */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Lic Jeevan Saral Maturity Calculator</h1>
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">LIC Jeevan Saral Maturity Calculator</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Instantly calculate the maturity value of your LIC Jeevan Saral Plan 165 policy. Get detailed estimates, including bonuses and loyalty additions.
+              Instantly calculate the maturity value of your LIC Jeevan Saral Maturity policy. Get detailed estimates, including bonuses and loyalty additions.
             </p>
           </div>
 
@@ -46,13 +46,13 @@ export default function JeevanSaralCalculatorPage() {
 
           {/* Information Section */}
           <div className="calculator-card mt-8">
-            <h2 className="text-2xl font-bold mb-6">LIC Jeevan Saral Plan 165 Overview</h2>
+            <h2 className="text-2xl font-bold mb-6">LIC Jeevan Saral Maturity Overview</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4">Plan Features</h3>
                 <p className="text-gray-700 mb-4">
-                  LIC Jeevan Saral Plan 165 is a flexible endowment plan that offers both protection and long-term savings. It comes with loyalty additions, guaranteed maturity benefits, and annual bonuses.
+                  LIC Jeevan Saral Maturity is a flexible endowment plan that offers both protection and long-term savings. It comes with loyalty additions, guaranteed maturity benefits, and annual bonuses.
                 </p>
 
                 <h4 className="text-lg font-semibold mb-2">Major Benefits:</h4>
