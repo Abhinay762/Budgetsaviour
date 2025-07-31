@@ -16,13 +16,13 @@ export const metadata: Metadata = {
         "LIC Jeevan Saral Estimator",
     ],
     alternates: {
-        canonical: "https://saralcalc.online/lic-jeevan-saral-maturity-calculator",
+        canonical: "https://saralcalc.online/jeevan-saral-maturity-calculator",
     },
     openGraph: {
         title: "LIC Jeevan Saral Maturity Calculator – Bonus & Loyalty Addition",
         description:
             "Free online calculator to estimate LIC Jeevan Saral maturity amount including bonus and loyalty additions.",
-        url: "https://saralcalc.online/lic-jeevan-saral-maturity-calculator",
+        url: "https://saralcalc.online/jeevan-saral-maturity-calculator",
         siteName: "SaralCalc",
         images: [
             {
