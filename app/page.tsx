@@ -81,13 +81,15 @@ export default function HomePage() {
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">With Profits</span>
                   <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Loyalty Addition</span>
                 </div>
+
                 <Link
                   href="/jeevan-saral-maturity-calculator"
-                  className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg text-base font-medium hover:bg-blue-700 transition"
+                  className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-xl text-base font-medium hover:bg-blue-700 transition"
                 >
                   <Calculator className="w-5 h-5 mr-2" />
                   Calculate Now
                 </Link>
+
               </div>
             </div>
           </div>
@@ -119,7 +121,7 @@ export default function HomePage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-semibold text-gray-800 mb-4">How to Use Our Jeevan Saral Maturity Calculator</h3>
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">How to Use <a href="/" className="text-blue-600 underline hover:text-blue-800">Our Jeevan Saral Maturity Calculator</a>?</h3>
                 <ol className="list-decimal list-inside space-y-2">
                   <li>Enter your sum assured amount</li>
                   <li>Input your annual premium amount</li>
@@ -130,7 +132,7 @@ export default function HomePage() {
               </div>
 
               <p>
-                Our LIC Jeevan Saral Maturity Calculator provides accurate estimates based on current bonus rates and policy terms.
+                <a href="/" className="text-blue-600 underline hover:text-blue-800">Our LIC Jeevan Saral Maturity Calculator</a> provides accurate estimates based on current bonus rates and policy terms.
                 Use this tool to plan your financial future effectively.
               </p>
 

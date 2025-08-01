@@ -20,14 +20,6 @@ export default function JeevanSaralCalculatorPage() {
     <>
       <Header />
 
-      {/* ✅ SEO Meta */}
-      <SeoHead
-        title="LIC Jeevan Saral 165 Maturity Calculator – Bonus & Loyalty Addition"
-        description="Use this free LIC Jeevan Saral Maturity calculator to estimate your maturity amount, bonuses, and loyalty additions. Instant, accurate results."
-        canonicalUrl="https://saralcalc.online/jeevan-saral-maturity-calculator"
-        ogImage="https://saralcalc.online/og-image.jpg"
-      />
-
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           {/* Page Header */}
@@ -138,9 +130,10 @@ export default function JeevanSaralCalculatorPage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Does the calculator have perfect accuracy?</h3>
                 <p className="text-gray-700">
-                  Using assumptions and current LIC rates, our calculator provides you with an estimate that is almost correct. Final maturity values, however, are contingent to the bonuses and loyalty additions announced by LIC at the time of payout.
+                  Using assumptions and current LIC rates, <a href="/" className="text-blue-600 underline hover:text-blue-800">our calculator</a> provides you with an estimate that is almost correct. Final maturity values, however, are contingent to the bonuses and loyalty additions announced by LIC at the time of payout.
                 </p>
               </div>
+
 
               <div>
                 <h3 className="text-lg font-semibold mb-2">How much is the loyalty addition?</h3>
