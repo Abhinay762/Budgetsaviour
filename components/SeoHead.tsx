@@ -71,6 +71,20 @@ export default function SeoHead({
           }),
         }}
       />
+      {/* Structured Data - Web Page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "LIC Jeevan Saral Maturity Calculator",
+            url: canonicalUrl + "/jeevan-saral-maturity-calculator",
+            description: description
+          }),
+        }}
+      />
+
     </Head>
   )
 }
