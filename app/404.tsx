@@ -13,7 +13,7 @@ export default function NotFoundPage() {
             <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
             <h2 className="text-3xl font-semibold text-gray-700 mb-6">Oops! That page can't be found.</h2>
             <p className="text-xl text-gray-600 mb-8">
-              It looks like nothing was found at this location. Maybe try a search?
+              It looks like nothing was found at this page. Maybe try a search?
             </p>
 
             <div className="mb-8">
